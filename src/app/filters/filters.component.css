@@ -1,0 +1,25 @@
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+.filter-div {
+    padding: 10px;
+    justify-self: center;
+    font-size: 1rem;
+}
+
+.childFilters {
+    padding-left: 30px;
+    padding-top: 5px;
+    font-size: 0.9rem;
+    color: grey;
+}
+
+button {
+    margin-top: 15px;
+    width: 100px;
+    align-self: center;
+}

@@ -1,0 +1,11 @@
+<section>
+    <div class="filter-div" *ngFor="let item of filterList">
+        <mat-checkbox (change)="Changed(item.id, 0)" [(ngModel)]="item.selected" color="accent" class="example-margin">{{item.name}}</mat-checkbox>
+        <div class="childFilters" *ngFor="let child of item.child">
+            <mat-checkbox (change)="Changed(child.id, item.id)" [(ngModel)]="child.selected" color="accent" class="example-margin">{{child.name}}</mat-checkbox>
+        </div>
+    </div>
+
+    <button (click)='GetData()' mat-raised-button color="primary">Generate</button>
+
+</section>

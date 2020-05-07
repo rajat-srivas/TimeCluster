@@ -1,0 +1,38 @@
+section {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+mat-toolbar {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.filters {
+    height: 100vh;
+    width: 15%;
+    padding: 30px;
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 3px;
+    border-right: 3px solid whitesmoke;
+    box-shadow: whitesmoke;
+}
+
+.graphs {
+    width: 75%;
+    height: 100vh;
+    padding: 20px;
+}
